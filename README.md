@@ -1,0 +1,1 @@
+This file belongs to final University of Law MSc Computer Science project. The Project includes created web page with HTML, CSS and JavaScript code structure. THe webpage goal is to allow individuals interested in football register themselves for a football game and be able to participate freely
