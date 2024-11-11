@@ -1,0 +1,10 @@
+Comparison of Storage Mechanisms
+Mechanism	Use Case	Pros	Cons
+In-Memory	Temporary data, caching	Fast, easy to use, Non-persistent
+Text/Binary	Logs, configuration	Simple, human-readable (text)	Limited structure, slower I/O
+CSV	Tabular data, data export	Easy to read, widely supported	Limited structure, slow for large data
+JSON	Configuration, web APIs	Human-readable, supports nested data	Not efficient for very large data
+SQLite/Relational DBs	Structured, persistent data	ACID compliance, complex queries	Requires setup, less flexible
+NoSQL	Unstructured, scalable data	Highly scalable, flexible schema	Complex queries can be limited
+Pickle	Python objects, caching	Handles complex Python objects	Not human-readable, Python-specific
+
